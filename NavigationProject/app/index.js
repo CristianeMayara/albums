@@ -5,23 +5,14 @@
  */
 
 import React, { Component } from 'react';
-import {
-  Text,
-  View
-} from 'react-native';
+import Home from './Home';
 
 class App extends Component {
   render() {
     return (
-      <View>
-        <Text>
-          Welcome!
-        </Text>
-      </View>
+      <Home />
     );
   }
 }
 
 export default App;
-
-//AppRegistry.registerComponent('NavigationProject', () => NavigationProject);
