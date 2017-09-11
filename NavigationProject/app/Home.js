@@ -4,6 +4,7 @@ import {
   View,
   Button
 } from 'react-native';
+import Header from './components/header'
 //import { StackNavigator } from 'react-navigation';
 
 class Home extends Component {
@@ -13,11 +14,12 @@ class Home extends Component {
 
   _onPressButton = () => {
 
-  }
+  } 
 
   render() {
     return (
       <View>
+        <Header />
         <Text>
           Welcome home!
         </Text>
