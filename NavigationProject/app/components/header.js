@@ -6,14 +6,22 @@ const Header = () => {
 
     return (
         <View style={viewStyle}>
-            <Text style={textStyle}>Albums!</Text>
+            <Text style={textStyle}>Home Screen</Text>
         </View>
     );
 };
 
 const styles = {
     viewStyle: {
-        backgroundColor: '#1D87E7'
+        backgroundColor: '#1D87E7',
+        height: 40,
+        justifyContent: 'center',
+        alignItems: 'center',
+        shadowColor: '#000000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.2,
+        elevation: 5,
+        position: 'relative'
     },
     textStyle: {
         color: '#FFFFFF',
