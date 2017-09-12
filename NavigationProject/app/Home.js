@@ -5,6 +5,7 @@ import {
   Button
 } from 'react-native';
 import Header from './components/header'
+import AlbumList from './components/AlbumList'
 //import { StackNavigator } from 'react-navigation';
 
 class Home extends Component {
@@ -20,6 +21,7 @@ class Home extends Component {
     return (
       <View>
         <Header headerText={'Home Title'} />
+        <AlbumList />
         <Text>
           Welcome home!
         </Text>
