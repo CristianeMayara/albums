@@ -19,7 +19,7 @@ class Home extends Component {
   render() {
     return (
       <View>
-        <Header />
+        <Header headerText={'Home Title'} />
         <Text>
           Welcome home!
         </Text>
