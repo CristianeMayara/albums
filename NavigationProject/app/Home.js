@@ -22,14 +22,6 @@ class Home extends Component {
       <View>
         <Header headerText={'Home Title'} />
         <AlbumList />
-        <Text>
-          Welcome home!
-        </Text>
-        <Button
-          onPress={this._onPressButton}
-          title="Next"
-          color="#841584"
-        />
       </View>
     );
   }
