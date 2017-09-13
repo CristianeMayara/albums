@@ -10,7 +10,11 @@
             "args": [
                 "-avd",
                 "Nexus_5_API_23"
-            ]
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
