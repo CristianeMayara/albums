@@ -19,7 +19,7 @@ class Home extends Component {
 
   render() {
     return (
-      <View>
+      <View style={{ flex: 1 }}>
         <Header headerText={'Home Title'} />
         <AlbumList />
       </View>
