@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
 
@@ -7,7 +7,12 @@ const AlbumDetail = (props) => {
     return(
         <Card>
             <CardSection>
-                <View></View>
+                <View>
+                    <Image
+                        style={styles.thumbnailStyle}
+                        source={{ uri: props.album.thumbnail_image }}
+                    />
+                </View>
                 <View style={styles.headerContentStyle}>
                     <Text>{props.album.title}</Text>
                     <Text>{props.album.artist}</Text>
@@ -22,6 +27,10 @@ const styles = {
     headerContentStyle: {
         flexDirection: 'column',
         justifyContent: 'space-around'
+    },
+    thumbnailStyle: {
+        height: 50,
+        width: 50
     }
 
 };
