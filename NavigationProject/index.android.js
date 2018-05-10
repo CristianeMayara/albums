@@ -8,7 +8,7 @@ import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
 import App from './app/index';
 
-class NavigationProject extends Component {
+class Albums extends Component {
   render() {
     return (
       <App />
@@ -16,6 +16,6 @@ class NavigationProject extends Component {
   }
 }
 
-export default NavigationProject;
+export default Albums;
 
-AppRegistry.registerComponent('NavigationProject', () => NavigationProject);
+AppRegistry.registerComponent('Albums', () => Albums);

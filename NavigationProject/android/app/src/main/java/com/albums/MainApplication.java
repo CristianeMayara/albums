@@ -1,4 +1,4 @@
-package com.navigationproject;
+package com.albums;
 
 import android.app.Application;
 
