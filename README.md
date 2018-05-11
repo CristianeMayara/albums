@@ -1,29 +1,19 @@
-# README #
+# Albums App
 
-This README would normally document whatever steps are necessary to get your application up and running.
+An example application that displays a list of music albums. The app redirects the user to purchase a selected album.
 
-### What is this repository for? ###
+## Usage
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+First, clone this repository. Then:
 
-### How do I get set up? ###
+### Android
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+```shell
+react-native run-android
+```
 
-### Contribution guidelines ###
+### iOS
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1. Open `ios/Albums.xcodeproj` in XCode
+2. Select development team for code-signing
+3. Run!
